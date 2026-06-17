@@ -1,15 +1,15 @@
-# Gradient Border Animation
+# Image Mask Reveal
 
 ## What does this do?
-Cards with animated gradient borders using conic-gradient and linear-gradient animations.
+Images reveal themselves on hover using CSS mask-image with various shaped masks.
 
 ## How is it used?
-Add a class like `card-conic` to a div:
+Add class `mask-image` to any element and define a `mask-image`:
 
-    <div class="border-card card-conic"><span>Conic</span></div>
+    <div class="mask-image"></div>
 
 ## Why is it useful?
-Eye-catching borders for feature cards, badges, and premium UI elements.
+Adds creative hover reveals for galleries, portfolios, and interactive cards.
 
 ## Tech Stack
 - HTML
